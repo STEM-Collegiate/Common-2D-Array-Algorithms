@@ -12,8 +12,8 @@ const testMatrices = [
     ],
     [   // all odd numbers
         [1, 3, 5],
-        [7, 9, 11],
-        [13, 15, 17]
+        [-7, -9, 11],
+        [13, 15, -17]
     ],
     [   // digits of pi pattern
         [3, -1, 4],
@@ -35,10 +35,10 @@ const testMatrices = [
         [0, 1, 0],
         [0, 0, 1]
     ],
-    [   // mixed small integers
-        [5, 0, 2],
-        [3, 1, 4],
-        [7, -2, 6]
+    [   // mixed large integers
+        [500, 100, 200],
+        [300, 1000, 400],
+        [700, 200, 600]
     ],
     [   // negative to positive range
         [-3, -2, -1],
