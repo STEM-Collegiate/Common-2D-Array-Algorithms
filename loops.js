@@ -58,9 +58,9 @@ const testMatrices = [
 // Example completed function
 function sumMatrix(matrix) {
     let total = 0;
-    for (const row of matrix) {
-        for (const val of row) {
-            total += val;
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            total += matrix[i][j];
         }
     }
     console.log("The sum total is:", total);
